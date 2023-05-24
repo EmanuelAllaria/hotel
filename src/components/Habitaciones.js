@@ -12,6 +12,11 @@ import imagen8 from '../img/img-hotel/hotel-imagenes (15).jpg';
 function Habitaciones() {
   return (
     <section>
+        <div className='title-habitaciones'>
+            <h2>
+                HABITACIONES
+            </h2>
+        </div>
         <div className='container-cards'>
             <div className="card">
                 <div id="carouselExampleControlsNoTouching1" className="carousel slide" data-bs-touch="false">
