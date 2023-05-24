@@ -1,0 +1,21 @@
+.container-banner {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.decription-banner {
+    background: #ffa300;
+    color: #fff;
+    padding: 20px;
+}
+.decription-banner h1 {
+    /* font-size: 30px; */
+}
+.decription-banner p {
+    font-size: 15px;
+}
+.img-banner img {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}

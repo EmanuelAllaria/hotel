@@ -1,0 +1,19 @@
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+#about .card {
+    width: 90% !important;
+}
+
+#about .card-header {
+    background: #ffa300;
+    color: #fff;
+}
+
+a.btn.btn-primary {
+    background: #ffa300;
+    border: none;
+}

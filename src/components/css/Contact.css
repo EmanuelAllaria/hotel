@@ -1,0 +1,27 @@
+#contact {
+    padding: 50px;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-contact {
+    margin-bottom: 50px;
+}
+.input-group {
+    width: 70% !important;
+}
+.d-grid.gap-2 {
+    margin-top: 20px;
+    width: 70%;
+}
+button.btn.btn-primary {
+    background: #ffa300;
+    border: #ffa300;
+    color: #000;
+}
+span#basic-addon1, span.input-group-text {
+    background: #ffa300;
+    color: #fff;
+}
