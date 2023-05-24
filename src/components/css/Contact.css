@@ -25,3 +25,18 @@ span#basic-addon1, span.input-group-text {
     background: #ffa300;
     color: #fff;
 }
+
+@media screen and (max-width: 550px) {
+    .input-group {
+        display: flex;
+        flex-direction: column;
+    }
+    input.form-control, textarea.form-control {
+        width: 100% !important;
+        border-radius: 5px !important;
+    }
+    span#basic-addon1, span.input-group-text {
+        width: fit-content;
+        border-radius: 5px !important;
+    }
+}
