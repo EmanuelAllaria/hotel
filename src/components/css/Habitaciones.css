@@ -1,0 +1,13 @@
+.container-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  padding: 40px;
+}
+.card {
+  width: 100%;
+}
+.title-habitaciones {
+  text-align: center;
+  padding-top: 24px;
+}
